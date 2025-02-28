@@ -9,6 +9,7 @@ st.title("Experiance Vs Salary Prediction")
 st.write("This model will predict saalry of the employes on the basis of their work experiance")
 
 X=np.array([1,2,3,4,5,6,7,8,9,10]).reshape(-1,1)
+
 y=np.array([30000,35000,50000,70000,90000,130000,180000,250000,350000,500000]).reshape(-1,1)
 
 sc_X=StandardScaler()
